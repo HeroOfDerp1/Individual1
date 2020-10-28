@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 7008785284576285171, guid: bb06c5ba2d15c2647b82760f50c866d5, type: 3}
+  GameController: {fileID: 1221196294}
+  maxBullets: 6
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +325,12 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &1221196294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6258031004218500822, guid: 0cd6714592b08874d95701663d2115fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 6258031004616284574}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1508529425
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +415,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6258031004616284574}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1221196294}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1d7fd589008ec94092f59bfb87bbf1f, type: 3}
@@ -559,6 +567,11 @@ PrefabInstance:
       propertyPath: gameController
       value: 
       objectReference: {fileID: 2019295050}
+    - target: {fileID: 1611093553563445789, guid: 887c5bee811983a4cb06f9ea66643b36,
+        type: 3}
+      propertyPath: bulletPoolManager
+      value: 
+      objectReference: {fileID: 154382891}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 887c5bee811983a4cb06f9ea66643b36, type: 3}
 --- !u!1001 &6258031004616284574
